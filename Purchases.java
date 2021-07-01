@@ -37,9 +37,11 @@ public class Purchases {
 	}
 
 	public void setStoreName(String newStoreName) {
-		throws IllegalPurchaseArgumentException 
+		 
 		if (newStoreName != null)
 		storeName = newStoreName;
+		else
+			throws IllegalPurchaseArgumentException (" ");
 	}
 
 	public LocalDate getPurchaseDate() {
