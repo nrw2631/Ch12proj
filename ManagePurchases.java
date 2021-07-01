@@ -215,6 +215,8 @@ public class ManagePurchases {
 	 * and asking for a valid String until it gets one!
 	 */
 	public static  String getString(String prompt)throws IllegalPurchaseArgumentException {
+		
+		//is this how this is supposed to go??
 		try {
 			method2();
 			}
